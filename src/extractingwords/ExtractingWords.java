@@ -15,7 +15,13 @@ public class ExtractingWords {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      int n =1344535;
+      int reversedNo;
+      while (n > 0) {
+       int digit = n % 10;  // Extract the least-significant digit
+       reversedNo=
+       n = n / 10;  // Drop the least-significant digit and repeat the loop
+      }
     }
     
 }
